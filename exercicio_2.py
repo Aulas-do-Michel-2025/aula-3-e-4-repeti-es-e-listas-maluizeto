@@ -21,8 +21,11 @@ Os números ímpares são [1, 3, 5]
 
 # Código para pegar a lista
 
-lista = [*map(int, input("Digite a sua lista (separando os números por vírgula): ").split(","))]
+impares = []
 
 for item in lista:
     if item % 2 != 0:
-       print (item)
+       impares.append (item)
+
+print ("Os números impares são:", impares)
+
