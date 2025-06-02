@@ -25,3 +25,13 @@ Pode-se utilizar o comando "while" ou até o "for" para te ajudar nisso.
 
 Fonte: Curso em vídeo.
 """
+
+numero = int(input("Digite um número: "))
+
+fat = 1
+
+while numero > 1:
+    fat = fat * numero
+    numero = numero - 1
+print ("O fatorial do número digitado é", fat)
+     
