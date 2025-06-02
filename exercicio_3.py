@@ -46,8 +46,8 @@ for iten in segunda_lista:
         maior_numero_lista2 = iten
 
 if maior_numero_lista1 > maior_numero_lista2:
-    print("Primeira lista")
+    print("Primeira")
 elif maior_numero_lista2 > maior_numero_lista1:
-    print("Segunda lista")
+    print("Segunda")
 else: 
     print ("Ambas")
